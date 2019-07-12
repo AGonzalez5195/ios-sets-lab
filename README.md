@@ -163,11 +163,11 @@ print(spaceships.count)
 - 4
 - Nothing will be output
 - 0
-- (This code will not compile)
+- ((This code will not compile))
 - 1
 - This code will compile but crash
 
-//
+
 Because Swift cannot use type inference on sets, sets must be declared with the proper type annotation. In this case, it is not properly set and so it will not even compile. Properly setting the spaceships variable as a set of strings would be as follows: 
 `var spaceships: Set<String> = []`
 ## Question 7
@@ -192,10 +192,10 @@ if spaceships1.isSubset(of: spaceships2) {
 
 - This code will compile but crash
 - "This is not a subset"
-- This code will not compile
+- ((This code will not compile))
 - "This is a subset"
 - Nothing will be output
 
-// Like the previous question, it will also not compile because of the lack of proper type annotation/declaration. 
+Like the previous question, it will also not compile because of the lack of proper type annotation/declaration. 
 `var spaceships1: Set<String> = []` 
 This is what it would need to be changed to in order for it to work.
